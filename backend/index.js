@@ -29,3 +29,7 @@ fs.createReadStream(filepath)
     })
 
 
+    const sortedData = obj.studentData.sort((a, b) => {  
+        return a - b
+      })
+      console.log(sortedData);
